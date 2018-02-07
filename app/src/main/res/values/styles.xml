@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="layoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="imageViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dimen300</item>
+        <item name="android:layout_marginLeft">@dimen/dimen16</item>
+        <item name="android:layout_marginRight">@dimen/dimen16</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@drawable/udacity_img</item>
+    </style>
+
+    <style name="textViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/dimen24</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:text">@string/uda_city</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/size40</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <style name="textViewStyle2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/dimen8</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginBottom">@dimen/dimen25</item>
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:text">@string/learn_with_us</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/size32</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <style name="textViewStyle3">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">@dimen/dimen12</item>
+        <item name="android:layout_marginLeft">@dimen/dimen16</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/size20</item>
+    </style>
+
+</resources>

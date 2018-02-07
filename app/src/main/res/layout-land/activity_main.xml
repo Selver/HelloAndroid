@@ -1,0 +1,50 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout style="@style/layoutStyle">
+
+        <ImageView
+            android:id="@+id/udacity_photo"
+            style="@style/imageViewStyle" />
+
+        <TextView
+            android:id="@+id/udacity"
+            style="@style/textViewStyle" />
+
+        <TextView
+            android:id="@+id/learn"
+            style="@style/textViewStyle2" />
+
+        <TextView
+            android:id="@+id/latham"
+            style="@style/textViewStyle3"
+            android:drawableLeft="@drawable/address_icon"
+            android:text="@string/_2465_latham_st" />
+
+        <TextView
+            android:id="@+id/Mountainview"
+            style="@style/textViewStyle3"
+            android:layout_marginBottom="@dimen/dimen20"
+            android:layout_marginLeft="@dimen/dimen64"
+            android:text="@string/mountain_view_ca_94043" />
+
+        <TextView
+            android:id="@+id/Text650-555-5555"
+            style="@style/textViewStyle3"
+            android:layout_marginBottom="@dimen/dimen20"
+            android:autoLink="phone"
+            android:drawableLeft="@drawable/phone_icon"
+            android:text="@string/_650_555_5555" />
+
+        <TextView
+            android:id="@+id/www"
+            style="@style/textViewStyle3"
+            android:layout_marginBottom="@dimen/dimen24"
+            android:autoLink="web"
+            android:drawableLeft="@drawable/web_icon"
+            android:text="@string/www_udacity_com" />
+
+    </LinearLayout>
+</ScrollView>
