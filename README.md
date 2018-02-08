@@ -1,2 +1,2 @@
 # HelloAndroid
-<img src="https://user-images.githubusercontent.com/28065277/35948937-502ab8da-0c6f-11e8-8ffe-156a18f8684c.png" width="300">
+<img src="https://user-images.githubusercontent.com/28065277/35967482-4ea02a34-0cc1-11e8-8ede-eadf0e651b87.png" width="300">
