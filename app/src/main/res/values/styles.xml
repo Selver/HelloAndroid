@@ -42,7 +42,7 @@
         <item name="android:layout_marginTop">@dimen/dimen8</item>
         <item name="android:layout_gravity">center_horizontal</item>
         <item name="android:layout_marginBottom">@dimen/dimen25</item>
-        <item name="android:fontFamily">cursive</item>
+        <item name="android:fontFamily">sans-serif-light</item>
         <item name="android:text">@string/learn_with_us</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textSize">@dimen/size32</item>
